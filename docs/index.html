@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EasyFormat - 公众号 AI 智能排版助手</title>
+    <meta name="description" content="EasyFormat 是面向微信公众号创作者的 AI 智能排版工具，语义级理解文章内容，自动生成适合公众号后台粘贴发布的专业图文排版。" />
+    <meta name="keywords" content="公众号排版,AI 排版,微信公众号编辑器,微信图文排版,公众号排版工具,自媒体排版,WeChat Official Account formatter" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://easyfomat.cn/" />
+    <meta property="og:title" content="EasyFormat - 公众号 AI 智能排版助手" />
+    <meta property="og:description" content="用 AI 自动完成公众号文章排版，一键复制到微信公众号后台。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://easyfomat.cn/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <style>
+      :root {
+        color-scheme: light;
+        --text: #111827;
+        --muted: #4b5563;
+        --line: #e5e7eb;
+        --accent: #0f766e;
+        --accent-dark: #115e59;
+        --bg: #ffffff;
+        --soft: #f7faf9;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.7;
+      }
+      .wrap { width: min(1040px, calc(100% - 40px)); margin: 0 auto; }
+      header { border-bottom: 1px solid var(--line); }
+      nav { display: flex; justify-content: space-between; align-items: center; min-height: 64px; gap: 24px; }
+      .brand { font-weight: 800; font-size: 20px; color: var(--text); text-decoration: none; }
+      .nav-links { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+      a { color: var(--accent-dark); }
+      .nav-links a { text-decoration: none; color: var(--muted); }
+      .hero { padding: 72px 0 56px; }
+      .eyebrow { color: var(--accent-dark); font-weight: 700; margin: 0 0 12px; }
+      h1 { font-size: clamp(36px, 7vw, 72px); line-height: 1.05; margin: 0; letter-spacing: 0; max-width: 920px; }
+      .lead { font-size: 20px; color: var(--muted); max-width: 760px; margin: 24px 0 0; }
+      .actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
+      .button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 18px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: white; text-decoration: none; font-weight: 700; }
+      .button.secondary { background: white; color: var(--accent-dark); }
+      section { padding: 44px 0; border-top: 1px solid var(--line); }
+      h2 { font-size: 28px; line-height: 1.25; margin: 0 0 18px; }
+      .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+      .item { border: 1px solid var(--line); border-radius: 8px; padding: 20px; background: var(--soft); }
+      .item h3 { margin: 0 0 8px; font-size: 18px; }
+      .item p, .item li { color: var(--muted); }
+      .steps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; counter-reset: step; }
+      .step { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; }
+      .step strong { display: block; margin-bottom: 6px; }
+      footer { padding: 32px 0 48px; color: var(--muted); font-size: 14px; }
+      @media (max-width: 760px) {
+        .grid, .steps { grid-template-columns: 1fr; }
+        .hero { padding-top: 48px; }
+        .lead { font-size: 17px; }
+        nav { align-items: flex-start; flex-direction: column; padding: 16px 0; }
+      }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "EasyFormat",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://easyfomat.cn",
+        "description": "EasyFormat 是面向微信公众号创作者的 AI 智能排版工具，自动生成适合公众号后台粘贴发布的图文排版。",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://easyfomat.cn/pricing"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav class="wrap">
+        <a class="brand" href="https://easyfomat.cn">EasyFormat</a>
+        <div class="nav-links">
+          <a href="https://easyfomat.cn/formatter">在线排版器</a>
+          <a href="https://easyfomat.cn/pricing">定价</a>
+          <a href="https://github.com/Hemajun2018/easyformat">GitHub</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="wrap hero">
+        <p class="eyebrow">公众号 AI 排版工具</p>
+        <h1>EasyFormat：一键生成适合微信公众号后台的专业图文排版</h1>
+        <p class="lead">EasyFormat 理解文章语义结构，自动处理标题、重点、引用、列表、图片位置和内联样式，让公众号创作者把时间花在内容上，而不是反复手动排版。</p>
+        <div class="actions">
+          <a class="button" href="https://easyfomat.cn/formatter">开始 AI 排版</a>
+          <a class="button secondary" href="https://easyfomat.cn">访问官网</a>
+        </div>
+      </div>
+      <section>
+        <div class="wrap">
+          <h2>为什么选择 EasyFormat</h2>
+          <div class="grid">
+            <article class="item"><h3>语义级排版</h3><p>自动识别标题、金句、列表、引用和重点段落，生成更清晰的文章结构。</p></article>
+            <article class="item"><h3>微信后台兼容</h3><p>输出适合复制到微信公众号编辑器的内联样式，减少粘贴后的样式丢失。</p></article>
+            <article class="item"><h3>图文混排</h3><p>保留图片位置，帮助公众号文章在移动端保持更稳定的阅读体验。</p></article>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="wrap">
+          <h2>4 步完成公众号文章排版</h2>
+          <div class="steps">
+            <div class="step"><strong>粘贴草稿</strong>支持从 Markdown、Word、Notion 等来源整理文章。</div>
+            <div class="step"><strong>选择风格</strong>根据科技、知识、深度、文艺等内容调性选择样式。</div>
+            <div class="step"><strong>AI 生成</strong>自动重塑结构和视觉层级，生成可预览结果。</div>
+            <div class="step"><strong>复制发布</strong>复制到微信公众号后台，快速完成发布前排版。</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="wrap">
+          <h2>相关关键词</h2>
+          <p>公众号排版、公众号 AI 排版、AI 排版工具、微信公众号编辑器、微信图文排版、公众号文章美化、自媒体排版、WeChat Official Account formatter。</p>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap">
+      <p>EasyFormat public SEO page. Main website: <a href="https://easyfomat.cn">https://easyfomat.cn</a></p>
+      <p>This repository contains public product information only. It does not include private source code or secrets.</p>
+    </footer>
+  </body>
+</html>
