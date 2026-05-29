@@ -1,8 +1,8 @@
 # EasyFormat - 公众号 AI 智能排版助手
 
-[EasyFormat](https://easyfomat.cn) 是一款面向微信公众号创作者、自媒体作者、企业新媒体团队和内容运营者的 AI 智能排版工具。它可以理解文章结构，自动生成适合微信公众号后台粘贴发布的图文排版，帮助创作者减少手动调字号、间距、颜色和图片位置的时间。
+[EasyFormat](https://easyformat.cn) 是一款面向微信公众号创作者、自媒体作者、企业新媒体团队和内容运营者的 AI 智能排版工具。它可以理解文章结构，自动生成适合微信公众号后台粘贴发布的图文排版，帮助创作者减少手动调字号、间距、颜色和图片位置的时间。
 
-> 官网：<https://easyfomat.cn>
+> 官网：<https://easyformat.cn>
 
 ## EasyFormat 解决什么问题
 
@@ -28,7 +28,7 @@
 
 ## 使用方式
 
-1. 打开 [EasyFormat 官网](https://easyfomat.cn)。
+1. 打开 [EasyFormat 官网](https://easyformat.cn)。
 2. 粘贴公众号文章草稿，支持纯文本、Markdown、从 Word 或 Notion 复制的内容。
 3. 选择适合文章调性的排版风格。
 4. 点击 AI 排版，预览生成结果。
@@ -48,9 +48,9 @@
 
 ## 链接
 
-- 官网：<https://easyfomat.cn>
-- 在线排版器：<https://easyfomat.cn/formatter>
-- 定价：<https://easyfomat.cn/pricing>
+- 官网：<https://easyformat.cn>
+- 在线排版器：<https://easyformat.cn/formatter>
+- 定价：<https://easyformat.cn/pricing>
 - GitHub Pages 介绍页：<https://hemajun2018.github.io/easyformat/>
 
 ## 说明
